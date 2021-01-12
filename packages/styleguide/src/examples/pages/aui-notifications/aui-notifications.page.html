@@ -1,0 +1,32 @@
+<h2 class="h3 u-margin-bottom">Notifications</h2>
+<div class="u-margin-bottom">
+  <aui-code-snippet [codeSnippet]="importModule"></aui-code-snippet>
+</div>
+
+<div class="u-margin-top u-margin-bottom m-alert">
+  <p>
+    <strong>Note:</strong> For this package to work properly, it is important to import the <code>BrowserAnimationsModule</code> in the root
+    module of your application.
+  </p>
+</div>
+
+<div class="u-margin-bottom">
+  <aui-code-snippet [codeSnippet]="showNotification"></aui-code-snippet>
+</div>
+
+<div class="u-margin-top u-margin-bottom">
+  <p>Our notifications package is built on ngx-toastr. All available options are listed on the <a href="https://www.npmjs.com/package/ngx-toastr#options" target="_blank" class="has-icon-right">ngx-toastr NPM page<span class="fa fa-external-link"></span></a></p>
+</div>
+
+<div class="u-margin-bottom-xs">
+  <button class="a-button" (click)="showInfoNotification()">Show info notification</button>
+</div>
+<div class="u-margin-bottom-xs">
+  <button class="a-button a-button--success" (click)="showSuccessNotification()">Show success notification</button>
+</div>
+<div class="u-margin-bottom-xs">
+  <button class="a-button a-button--warning" (click)="showWarningNotification()">Show warning notification</button>
+</div>
+<div class="u-margin-bottom">
+  <button class="a-button a-button--danger" (click)="showErrorNotification()">Show error notification</button>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "@acpaas-ui/ngx-notifications",
+  "version": "4.6.0",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  },
+  "dependencies": {
+    "ngx-toastr": "^11.3.3"
+  },
+  "gitHead": "e626d267cd3a71ed35172a1a6d6b41e91c175d84"
+}
