@@ -10,14 +10,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digipolisantwerp/acpaas-ui_angular"
+    "url": "https://github.com/trianglejuice/ACTIONS_acpaas-ui_angular"
   },
   "scripts": {
     "ng": "ng",
     "start": "ng serve --aot",
     "build": "ng build",
     "build:all": "node ./scripts/build-all.js",
-    "build:prod": "ng build --prod --base-href \"https://digipolisantwerp.github.io/acpaas-ui_angular/\"",
+    "build:prod": "ng build --prod --base-href \"https://trianglejuice.github.io/ACTIONS_acpaas-ui_angular/\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
