@@ -1,9 +1,6 @@
 name: Run CI
 on:
-  push:
-    branches:
-      - '*'
-      - '!master'
+  - pull_request
 jobs:
   build:
     name: Run build
